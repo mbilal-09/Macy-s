@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(231, 228, 228);
+}
+
+.collapse {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-link {
+    margin-right: 80px;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.slidder-img {
+    height: 500px;
+}
+
+.categories-div {
+    background-color: white;
+}
+
+.categories-div > div > h1 {
+    color: black;
+}
+
+.contact-us {
+    height: 130px;
+    margin-top: 550px;
+    background-color: rgb(36, 36, 36);
+}
+
+.copyright {
+    font-size: 10px;
+}
+
+.signup-form {
+    width: 970px;
+}
+
+.email {
+    margin-right: 85px;
+}
