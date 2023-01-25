@@ -1,7 +1,7 @@
 body {
     background-color: rgb(231, 228, 228);
+    overflow-x: hidden;
 }
-
 .collapse {
     display: flex;
     justify-content: space-around;
@@ -29,12 +29,7 @@ body {
 
 .contact-us {
     height: 130px;
-    margin-top: 550px;
     background-color: rgb(36, 36, 36);
-}
-
-.copyright {
-    font-size: 10px;
 }
 
 .signup-form {
@@ -43,4 +38,14 @@ body {
 
 .email {
     margin-right: 85px;
+}
+
+.copyright {
+    font-size: 10px;
+    min-height: 30px;
+}
+
+.for-space {
+    background-color: rgb(231, 228, 228);
+    height: 500px;
 }

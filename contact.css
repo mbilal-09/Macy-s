@@ -23,16 +23,37 @@ body {
 
 .copyright {
     font-size: 10px;
+    min-height: 30px;
 }
 
 .signup-form {
-    width: 970px;
+    max-width: 970px;
+    min-height: 500px;
 }
 
 .email {
     margin-right: 85px;
 }
 
-.copyright-div {
-    margin-bottom: 0px;
+.location {
+    margin-right: 61px;
+}
+
+.location-dropdown {
+    width: 190px;
+    height: 35px;
+    border-radius: 3px;
+}
+
+.agreement {
+    font-size: xx-small;
+    line-height: 10px;
+}
+
+.text-link:hover {
+    text-decoration: underline !important;
+}
+
+.size-btn {
+    width: 60px;
 }
