@@ -28,8 +28,9 @@ body {
 }
 
 .contact-us {
-    height: 130px;
+    min-height: 130px;
     background-color: rgb(36, 36, 36);
+    width: 100%;
 }
 
 .signup-form {
@@ -43,9 +44,10 @@ body {
 .copyright {
     font-size: 10px;
     min-height: 30px;
+    width: 100%;
 }
 
 .for-space {
     background-color: rgb(231, 228, 228);
-    height: 500px;
+    height: 550px;
 }
