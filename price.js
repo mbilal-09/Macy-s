@@ -37,3 +37,20 @@
 // number.push(num6)
 
 // console.log(number)
+
+// for (var a = 1; a < 21; a++){
+//     for (var b = 1; b < 11; b++){
+//         console.log(a+ " * " +b+ " = " +a*b)
+//     }
+//     console.log("\n")
+// }
+
+// for (var a = 0; a < 10; a++){
+//     console.log(a)
+// }
+
+const fruits = ["Apple", "Banana", "Orange"]
+
+for (x of fruits){
+    console.log(x)
+}
