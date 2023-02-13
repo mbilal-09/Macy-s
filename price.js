@@ -49,8 +49,8 @@
 //     console.log(a)
 // }
 
-const fruits = ["Apple", "Banana", "Orange"]
+// const fruits = ["Apple", "Banana", "Orange"]
 
-for (x of fruits){
-    console.log(x)
-}
+// for (x of fruits){
+//     console.log(x)
+// }
