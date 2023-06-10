@@ -3,9 +3,10 @@ body {
     overflow-x: hidden;
 }
 
-.collapse {
+.navbar-collapse {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-left: 60px;
 }
 
 .nav-link {
@@ -55,6 +56,19 @@ body {
     text-decoration: underline !important;
 }
 
+.selectedBtn{
+    display: none !important;
+}
+
 .size-btn {
     width: 60px;
+}
+
+.addToCartBtn{
+    display: none !important;
+}
+
+.addedBtn{
+    display: inline !important;
+    cursor: not-allowed !important;    
 }

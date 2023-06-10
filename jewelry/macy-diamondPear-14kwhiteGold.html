@@ -22,39 +22,8 @@
 
     <!-- navbar -->
 
-    <nav class="navbar">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="../index.html"> <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Macy%27s_Logo_2019.png" height="50px"
-                    width="200px" alt=""> </a>
-            <div class="d-flex">
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                </form>
-                <a href="../signup.html"><button type="button" class="btn btn-danger">Sign up</button></a>
-            </div>
-        </div>
-    </nav>
-
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link fw-bold" aria-current="page" href="../men/index.html">Men</a>
-                    <a class="nav-link fw-bold" href="../kid/index.html">Kids & Baby</a>
-                    <a class="nav-link fw-bold" href="../index.html">Home</a>
-                    <a class="nav-link fw-bold" href="../shoes/index.html">Shoes</a>
-                    <a class="nav-link fw-bold" href="../handbag/index.html">Handbags & Accessories</a>
-                    <a class="nav-link fw-bold" href="index.html">Jewelry</a>
-                    <a class="nav-link fw-bold text-danger" href="#">Sale</a>
-                </div>
-            </div>
-        </div>
-    </nav>
+    <div class="navbar-container">
+    </div>
 
     <!-- Product Details -->
 
@@ -81,11 +50,8 @@
 
             <br><br>
 
-            <p class="d-inline fw-bold">COLOR: WHITE GOLD</p>
-
-            <br>
-
-            <button type="button" class="btn btn-dark d-block mx-auto w-100 mt-4">Add To Bag</button>
+            <button onclick="addToCart(this)" class="btn btn-dark d-block mx-auto w-100 mt-4 cartBtn">Add To Cart</button>
+            <button class="btn btn-secondary selectedBtn d-block mx-auto w-100 mt-4">Added</button>
 
             <hr>
 
@@ -124,9 +90,8 @@
             Street, New York, NY 10001. Request our corporate name & address by email.</p>
     </div>
 
-
-
-
+    <script src="../main.js"></script>
+    <script src="main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>

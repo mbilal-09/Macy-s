@@ -4,17 +4,15 @@ body {
     margin: 0px;
     padding: 0px;
 }
-.collapse {
+
+.navbar-collapse {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-left: 60px;
 }
 
 .nav-link {
     margin-right: 80px;
-}
-
-.navbar {
-    background-color: white;
 }
 
 .slidder-img {
